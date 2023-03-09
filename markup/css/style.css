@@ -478,6 +478,7 @@ a:hover {
     flex-direction: column;
     align-content: space-between;
     align-items: flex-start;
+    width: 300px;
 }
 
 .footer-left h3 {
@@ -537,7 +538,7 @@ a:hover {
 }
 
 .footer-bot {
-    display: inline-block;
+    display: flex;
 }
 
 .footer-bot img {
@@ -546,6 +547,7 @@ a:hover {
 
 .footer-bot span {
     margin-left: 14px;
+    width: 50%;
 }
 
 .footer-top {
