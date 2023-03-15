@@ -112,12 +112,9 @@ a:hover {
     background-color: #FF6336;
 }
 
-.title {
-    padding-top: 90px;
-}
-
 .section2 {
     margin: 40px 0 0 0;
+    padding-top: 90px;
     background: #ff9c7d;
 }
 
@@ -264,11 +261,6 @@ a:hover {
     background: #FFF8E4;
 }
 
-.title1 {
-    font-size: 35px;
-    line-height: 50px;
-}
-
 .title1 h1 {
     padding: 90px 0 0 0;
     text-align: center;
@@ -302,6 +294,10 @@ a:hover {
     text-align: center;
     font-size: 50px;
     line-height: 60ox;
+}
+
+.image-wrap {
+    height: 200px;
 }
 
 .list2 img {
