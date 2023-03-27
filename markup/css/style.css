@@ -579,7 +579,11 @@ a:hover {
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+    .aside {
+        display: inline-flex;
+    }
+
     .menu li {
         display: block;
     }
@@ -601,6 +605,10 @@ a:hover {
         width: auto;
     }
 
+    .image1 img {
+        width: 50%;
+    }
+
     .img-1 {
         width: 100%;
     }
@@ -608,6 +616,11 @@ a:hover {
     .img-1 img {
         width: 100%;
     }
+
+    .image-wrap {
+        height: auto;
+    }
+
 
     .infosection2,
     .infosection3,
@@ -624,10 +637,8 @@ a:hover {
         flex-direction: column;
     }
 
-    .image2,
-    .image3,
-    .image4 {
-        width: 100%;
+    .quote img {
+        padding-bottom: 20px;
     }
 
     .list1 {
@@ -649,6 +660,10 @@ a:hover {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+    /* .aside {
+        display: inline-flex;
+    } */
+    
     .menu li {
         display: block;
     }
@@ -676,6 +691,10 @@ a:hover {
     .img-1 img {
         margin: 0;
         width: 100%;
+    }
+
+    .image-wrap {
+        height: auto;
     }
 
     .list-menu {
@@ -709,6 +728,10 @@ a:hover {
         width: 100%;
     }
 
+    .image4 {
+        height: 370px;
+    }
+
     .list1,
     .list2 {
         flex-direction: column;
@@ -731,7 +754,7 @@ a:hover {
     }
 
     .quote img {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .title2 b {
